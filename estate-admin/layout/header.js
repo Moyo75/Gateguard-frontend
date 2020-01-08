@@ -21,15 +21,16 @@ document.write(
       <span class="navbar-toggler-icon"></span>
     </button>
     <form method="get" class="form-inline mr-4 ml-4">
-      <div class="form-group header-form d-flex align-items-center">
+      <div class="form-group header-form d-flex align-items-center" style="background: #FAFBFD;">
         <img
           src="../images/search.jpeg"
           width="16px"
           height="16px"
           alt="Search"
-          style="opacity: 0.5;"
+          style="opacity: 0.2;"
         /><input
           type="text"
+          style="background: #FAFBFD !important;"
           placeholder="Search residents..."
           class="form-control header-input bg-white"
         />
