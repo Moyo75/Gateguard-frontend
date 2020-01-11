@@ -119,11 +119,11 @@ width: 15%;
 padding-left: 25%;
 }*/
 
-table:hover {
+/* table:hover {
       -webkit-box-shadow: -9px 24px 20px -9px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: -9px 24px 20px -9px rgba(0, 0, 0, 0.75);
       box-shadow: -9px 24px 20px -9px rgba(0, 0, 0, 0.75);
-}
+} */
 
 i {
       visibility: hidden;
@@ -197,42 +197,6 @@ i {
 /*.dropdown-toggle:FOCUS{background-color: #E5E5E5;}*/
 
 /*payments overview page starts here*/
-
-.semi-headers {
-      background-color: none;
-      border-spacing: 2px;
-      border-radius: 4px;
-}
-
-.semi-headers {
-      margin: 0px;
-      padding: 6px 0px 10px 0;
-      height: 50px;
-}
-
-.semi-navs {
-      margin: 0px;
-      padding: 0px 0px 10px 0;
-      height: 50px;
-}
-
-.semi-nav-items {
-      margin: 0px;
-      padding: 10px;
-      height: 50px;
-}
-
-.semi-nav-items {
-      color: green;
-      background-color: white;
-      border-radius: 4px;
-}
-
-.activated {
-      background: #49A347;
-      color: white;
-      font-size: 18px;
-}
 
 .fa-map,
 .fa-shield,
@@ -405,7 +369,8 @@ table {
 
       .semi-headers {
             display: flex;
-            width: 80%;
+            width: 90%;
+            padding: 0px 0px 10px 0;
             align-content: center;
       }
 

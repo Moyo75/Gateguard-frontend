@@ -43,7 +43,7 @@
                 style="border: none; padding: 0 1.5em 0 5em; background: #e0ede6; height: 35px; margin-top: -1.7em; margin-bottom: 3em; width: 96%;"
                 >
                 <p style="color: #49A347;font-size: 18px; margin-top: 14px;">
-                Payment
+                    Payment
                 </p>
                 <ul
                     class="list-group d-flex flex-row justify-content-md-between"
@@ -60,45 +60,48 @@
                 <div class="row">
                     <!-- main overview section starts here -->
                     <div class="col-md-7">
-                        <ul class="semi-headers d-flex justify-content-between">
-                            <li class="semi-navs"> 
-                                <a class="btn pl-4 pr-4 activated" href="#">Overview</a>
-                            </li>
-                            <li class="semi-headers">
-                                <a class="semi-nav-items" href="#">Transactions</a>
-                            </li>
-
-                            <li class="semi-headers">
-                                <a class="semi-nav-items" href="#">Generate Bills</a>
-                            </li>
-
-                            <li class="semi-headers">
-                                <a class="semi-nav-items" href="#">Added Services</a>
-                            </li>
-                        </ul>
+                        <nav style="width: inherit; margin-left: -30px;">
+                            
+                            <ul class="d-flex justify-content-between">
+                                <li class="btn ml-2 mr-2" style="background: #49A347;">
+                                    <a href="#" class="ml-2 mr-2" style="color: white;">Overview</a>
+                                </li>
+                                <li class="btn mr-1 bg-white">
+                                    <a class="ml-2 mr-2" href="#">Transactions</a>
+                                </li>   
+                                <li class="btn mr-1 bg-white">
+                                    <a class="ml-1 mr-1" href="#">Generate Bills</a>
+                                </li>   
+                                <li class="btn bg-white">
+                                    <a class="ml-1 mr-1" href="#">Added Services</a>
+                                </li>
+                            </ul>
+                        </nav>
                         <div class="row">
                             <div class="col-md-6">
                                 <section>
-                                    <table class="table">
-                                        <tr>
-                                            <td>Bills Received</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span class="fa fa-map"></span>
-                                                <B class="money">NGN 500, 000</B>
-                                                <p class="grey">This Month</p>
-                                            </td>
-                                            <td class="td_rate">
-                                                <p class="rate"><span class="fa fa-long-arrow-up"></span>18%</p>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </section>
+                                        <table class="table shadow p-3 mb-5 bg-white rounded" style="border-collapse: collapse;
+                                        border-radius: 30px; overflow: hidden;">
+                                            <tr>
+                                                <td>Bills Received</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="fa fa-map"></span>
+                                                    <B class="money">NGN 500, 000</B>
+                                                    <p class="grey">This Month</p>
+                                                </td>
+                                                <td class="td_rate">
+                                                    <p class="rate"><span class="fa fa-long-arrow-up"></span>18%</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                </section >
                             </div>
                             <div class="col-md-6">
                                 <section>
-                                    <table class="table">
+                                    <table class="table shadow p-3 mb-5 bg-white rounded" style="border-collapse: collapse;
+                                    border-radius: 30px; overflow: hidden;">
                                         <tr>
                                             <td>Overdue</td>
                                             <td></td>
@@ -120,7 +123,7 @@
                             <div class="col-md-12 graph">
                                 <section>
                                     
-                                    <canvas id="myChart"></canvas>
+                                    <canvas id="myChart" class="shadow p-3 mb-5 bg-white rounded"></canvas>
                                     <script>
                                         var ctx = document.getElementById('myChart').getContext('2d');
                                         var myChart = new Chart(ctx, {
@@ -175,8 +178,9 @@
                     </div>
                     <!-- main overview section ends here -->
                     <div class="col-md-5">
-                        <section class="below">
-                            <table class="table with_dates">
+                        <section class="below  shadow p-2 mb-5 bg-white rounded">
+                            <table class="table with_dates" style="border-collapse: collapse;
+                            border-radius: 10px; overflow: hidden;">
                                 <tr>
                                     <h2 class="dark-header">
                                         Scheduled Bills
